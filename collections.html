@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+      <!-- navigation header -->
+      <div id="ad" class="bg-black flex justify-center gap-14 p-2 ">
+        <h5 class="text-white text-xl">Sign up and <span class="font-bold">get 20%</span> offer</h5>
+        <p id="closead"class="text-white text-xl font-weight-800 hover:cursor-pointer">x</p>
+    </div>
+    <div id="nav" class="flex justify-between p-4 items-center border shadow-xl rounded-md z-10 sticky top-0 bg-white">
+    <h1 class="text-3xl font-bold">NOSTRA</h1>
+    <div>
+        <ul class="flex gap-5 text-gray-500">
+            <li class="hover:text-black"><a href="">Home</a></li>
+            <li class="hover:text-black"><a href="">New Arrival</a></li>
+            <li class="hover:text-black"><a href="">Most Wanted</a></li>
+            <li class="hover:text-black"><a href="">Collections</a></li>
+            <li class="hover:text-black"><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <section>
+        <div class="grid grid-cols-5 py-8">
+            <!-- First column with 40% width -->
+            <div class="border-r-2 border-gray-600 col-span-1">
+                <div class="p-10">
+                    <h1 class="font-bold mt-5 mb-5 text-base md:text-2xl">Occasion</h1>
+                    <div class="flex items-center mb-4">
+                        <input id="beach" type="checkbox" name="tags" value="beach" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="beach" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Beach</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="summer" type="checkbox"  name="tags" value="summer" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="summer" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Summer</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="party" type="checkbox" name="tags" value="party" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="party" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Party</label>
+                    </div>
+    
+                    <h1 class="font-bold mt-5 mb-5 text-base md:text-2xl">Colors</h1>
+                    <div class="flex items-center mb-4">
+                        <input  id="red" type="checkbox" name="tags" value="red" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="red" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Red</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="blue" type="checkbox" name="tags" value="blue" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="blue" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Blue</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="white" type="checkbox" name="tags" value="white" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="white" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">White</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="green" type="checkbox" name="tags" value="green" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="green" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Green</label>
+                    </div>
+    
+                    <h1 class="font-bold mt-5 mb-5 text-base md:text-2xl">Arrivals</h1>
+                    <div class="flex items-center mb-4">
+                        <input  id="new" type="checkbox" name="tags" value="new" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="new" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">New</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input id="old" type="checkbox" name="tags" value="old" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="old" class="ms-2 text-xs md:text-xl font-medium text-gray-900 dark:text-gray-300">Old</label>
+                    </div>
+                    <button  onclick="clearFilter()" type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 ">Clear Filter</button>
+                </div>
+            </div>
+            <div class="col-span-4 p-4">
+                <div class="relative">
+                    <input type="text" id="search" class="border border-black p-2 pl-10 m-3" placeholder="Search..." style="width:80%">
+                    <i id="input-close" style="left: 77%; top: 50%; transform: translateY(-50%); cursor: pointer; display: none;" class="fa-solid fa-xmark"></i>
+
+                </div>
+                <div id="container" class="grid grid-cols-3 mt-5 gap-5 products">
+
+                </div>
+
+            </div>
+            <script src="collection.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+</html>
